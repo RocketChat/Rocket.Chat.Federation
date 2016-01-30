@@ -8,4 +8,5 @@ deploy:
   provider: script
   script: .travis/deploy.sh
   on:
-    branch: develop
+    tags: true
+    all_branches: true 
