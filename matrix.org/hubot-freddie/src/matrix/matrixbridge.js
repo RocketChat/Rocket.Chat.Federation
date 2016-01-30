@@ -1,15 +1,15 @@
 var Bridge = require("matrix-appservice-bridge").Bridge;
-
+var Cli = require("matrix-appservice-bridge").Cli;
+var AppServiceRegistration = require("matrix-appservice-bridge").AppServiceRegistration;
 
 var localbridge;
 
 var bridge = {
   run:   function(port, config, eventHanlder) {
           localbridge = new Bridge({
-            homeserverUrl: "http://corei5:8008",
-            domain: "corei5",
-            registration: "/Users/sing/hubot/scripts/matrix/rocketchat-registration.yaml",
-
+            homeserverUrl: config.hsurl,
+            domain: config.domain,
+            registration: config.registration,
             controller: {
                 onUserQuery: function(queriedUser) {
                     return {}; // auto-provision users with no additonal data
