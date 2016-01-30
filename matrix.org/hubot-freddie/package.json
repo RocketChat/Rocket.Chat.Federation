@@ -8,11 +8,12 @@
     "url": "http://rocket.chat/"
   },
   "contributors": [
-   {
-    "name": "Sing Li",
-    "email": "sing.li@rocket.chat"
-   }],
-   "licenses": [
+    {
+      "name": "Sing Li",
+      "email": "sing.li@rocket.chat"
+    }
+  ],
+  "licenses": [
     {
       "type": "MIT",
       "url": "http://opensource.org/licenses/mit-license.php"
@@ -31,12 +32,12 @@
   },
   "bugs": {
     "url": "https://github.com/RocketChat/Rocket.Chat.Federation/issues",
-     "email": "support@rocket.chat"
+    "email": "support@rocket.chat"
   },
   "dependencies": {
     "coffee-script": "~1.6",
-    "request": "^2.67.0",
-    "matrix-appservice-bridge": "^0.1.2"
+    "matrix-appservice-bridge": "^0.1.2",
+    "request": "^2.67.0"
   },
   "devDependencies": {
     "mocha": "*",
