@@ -1,11 +1,21 @@
 hubot-freddie
 =============
 
-Freddie is Rocket.Chat's Hubot for Federation via Matrix.org
+Freddie is Rocket.Chat's Hubot for Federation via matrix.org
 
 Freddie pairs a Rocket.Chat server with a Synapse Home Server.
 
-This is a work in progress.
+From Rocket.Chat:
+
+![Rocket.Chat in federated channel](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/rcsnynapse.png)
+
+To Home Server:
+
+![Synapse in federated room](https://raw.githubusercontent.com/Sing-Li/bbug/master/images/synapserc.png)
+
+Out to the rest of the federated world - Slack, IRC, and beyond ... via matrix.org
+
+NOTE: This project is a work in progress.
 
 # Installation
 
