@@ -22,6 +22,25 @@ Next, you must edit the `external-scripts.json` file to load Freddie:
 ]
 ```
 
+# Home Server Application Service Registration
+
+In the `node_modules/hubot-freddie` directory: 
+
+```
+npm install
+node genASRegFile.js -r -u <URL of hubot-freddie's incoming webhook>
+```
+
+This will generate a `rocketchat-registration.yaml` file in the same directory.
+
+Copy this file to both your Rocket.Chat server and Synapse Home Server.  Note the absolute path(s).
+
+On your home server, make sure to add an entry in `homeserver.yaml` to point to this file:
+
+```
+app_service_config_files: ["/absolute/path/to/rocketchat-registration.yaml"]
+```
+
 You will also need to configure Freddie for your Rocket.Chat server and Synapse Home sever..
 
 
