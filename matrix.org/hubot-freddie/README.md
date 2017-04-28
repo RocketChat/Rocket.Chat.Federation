@@ -45,6 +45,12 @@ This will generate a `rocketchat-registration.yaml` file in the same directory.
 
 Copy this file to both your Rocket.Chat server and Synapse Home Server.  Note the absolute path(s).
 
+The format of the generated file is somewhat outdated, please add the following line at the top of the Synapse Home Server's copy:
+
+```
+id: "rocketchat"
+```
+
 On your home server, make sure to add an entry in `homeserver.yaml` to point to this file:
 
 ```
