@@ -38,7 +38,7 @@ In the `node_modules/hubot-freddie` directory:
 
 ```
 npm install
-node genASRegFile.js -r -u <URL of hubot-freddie's incoming webhook>
+node src/matrix/genASRegFile.js -r -u <URL of hubot-freddie's incoming webhook>
 ```
 
 This will generate a `rocketchat-registration.yaml` file in the same directory.
