@@ -28,5 +28,5 @@ module.exports = (robot) ->
     # messages coming from Rocket.Chat room(s) monitored
     robot.hear /.*/, (msg) ->
       #  send the received Rocket.Chat message into the paired HS
-      intent = bridge.getBridge().getIntent(RocketChatUserPrefix + msg.message.user.name.toLowerCase() + ":corei5");
+      intent = bridge.getBridge().getIntent(RocketChatUserPrefix + msg.message.user.name.toLowerCase() + ":" + HomeServerDomain );
       intent.sendText(HomeServerRoomID, msg.message.text);
