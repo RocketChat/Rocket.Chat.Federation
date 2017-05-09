@@ -9,3 +9,6 @@ function UTCTime(milliseconds) {
     var UTCTime_from_ms = new Date();
     return UTCTime_from_ms;
 }
+
+exports.AsTimeStamp = AsTimeStamp;
+exports.UTCTime = UTCTime;
