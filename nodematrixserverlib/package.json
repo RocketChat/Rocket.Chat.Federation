@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/RocketChat/Rocket.Chat.Federation/issues"
   },
-  "homepage": "https://github.com/RocketChat/Rocket.Chat.Federation#readme"
+  "homepage": "https://github.com/RocketChat/Rocket.Chat.Federation#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.15.2",
+    "mocha": "^3.3.0",
+    "request": "^2.81.0"
+  }
 }
