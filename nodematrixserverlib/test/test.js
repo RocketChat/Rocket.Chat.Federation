@@ -4,12 +4,12 @@ var AsTimeStamp = require("../timestamp").AsTimeStamp,
 
 describe("tests", function () {
     it("must return timestamp ie., milliseconds", function () {
-        expect(AsTimeStamp(new Date())).to.be.a("number");
+        expect(asTimeStamp(new Date())).to.be.a("number");
     });
 
     it("must return UTC string", function () {
         var timeInMilliseconds = new Date().getTime();
-        var UTCtime = new Date(timeInMilliseconds);
-        expect(UTCTime(timeInMilliseconds)).to.deep.equal(UTCtime);
+        var utctime = new Date(timeInMilliseconds);
+        expect(utcTime(timeInMilliseconds)).to.deep.equal(utctime);
     });
 });
