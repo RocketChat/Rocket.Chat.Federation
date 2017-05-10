@@ -10,5 +10,5 @@ function utcTime(milliseconds) {
     return utcTimeFromMs;
 }
 
-exports.AsTimeStamp = asTimeStamp;
-exports.UTCTime = utcTime;
+exports.asTimeStamp = asTimeStamp;
+exports.utcTime = utcTime;
