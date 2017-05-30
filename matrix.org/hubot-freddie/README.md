@@ -34,7 +34,7 @@ Next, you must edit the `external-scripts.json` file to load Freddie:
 
 # Home Server Application Service Registration
 
-In the `node_modules/hubot-freddie` directory: 
+In the `node_modules/hubot-freddie` directory:
 
 ```
 npm install
@@ -82,7 +82,4 @@ HOMESERVER_SENDER_LOCAL | the local user on the Home Server that will create new
 INCOMING_PORT | the port at which this bot will listen to incoming messages from the Home Server
 ROCKETCHAT_USER_PREFIX | the prefix added to the Rocket.Chat user name when messages are sent on his/her behalf to the Home Server
 WRITABLE_CONFIG_PATH |  the absolute path of the directory where the bot's Matrix bridge can find the `rocketchat-registration.yaml` Application Service configuration file, this file **must** be identical to the one registered with the Home Server
-
-
-
-
+ROOM_MAP | a list of rooms to map, use `ID_ROCKETCHAT=ID_MATRIX,...,...` same as `HOMESERVER_ROOM_ID` `ROCKETCHAT_ROOM_ID`
