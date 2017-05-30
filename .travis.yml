@@ -6,4 +6,3 @@ deploy:
   script: .travis/deploy.sh
   on:
     tags: true
-    branch: master
