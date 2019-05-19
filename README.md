@@ -2,7 +2,7 @@
 
 This repo is currently not used.  Federation support has been merged in Rocket.Chat 1.0.  
 
-Source code can be found [here](https://github.com/RocketChat/Rocket.Chat/tree/d53e264b83ccc971236123853e4b68c9eb6beeb4/app/federation)
+Source code can be found [here](https://github.com/RocketChat/Rocket.Chat/tree/develop/app/federation)
 
 
 ## Federation support
